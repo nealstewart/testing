@@ -7,7 +7,7 @@ var bigdecimal = require('../lib/bigdecimal');
 var $ = require('jquery');
 var talk = require('../lib/talk');
 var dateLib = require('../lib/date');
-var browser = require('../browser');
+var browser = require('../lib/browser');
 
 var CALCULABLE_FIELDS = ['LineExtensionAmount', 'Quantity'];
 var NON_CALCULABLE_FIELDS = ['UnitCode', 'ItemId', 'Tax', 'Price'];
